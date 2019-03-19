@@ -6,6 +6,13 @@ html{
 	font-family: 'ZCOOL XiaoWei', serif;
 }
 
+
+
+body{
+	background-color:#F0FFFF;
+}
+
+
 .lateral{
 	background-color: #DDA0DD;
 	bottom: 0;
@@ -35,6 +42,50 @@ html{
 	margin-left: .5em;
 	width: 250px;
 }
+
+/*login*/
+fieldset{
+	width: 280px;
+	margin:0 auto;
+	border:none;
+	padding: 0 0 10px 0;
+	background-color:#AFEEEE;
+}
+
+form{
+	background-color: #AFEEEE;
+	width: 300px;
+	padding: 40px 10px 0 10px;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+input{
+	display: block;
+	border: none;
+	margin: 20px auto;
+	width: 280px;
+	background-color: #48D1CC;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px;
+}
+ 
+ legend{
+ 	width: 100%;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	color:#0000CD;
+ }
+
+input[type ="submit"]{
+	background-color: #0000CD;
+	color: white;
+	cursor: pointer;
+}
+
 
 /*.perfil_nombre, .perfil_ciculo{
 	display: inline-block;
@@ -99,3 +150,4 @@ html{
 .proyectos_imagen{
 	width: 1000%;
 }
+
