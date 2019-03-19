@@ -2,9 +2,12 @@
 	box-sizing: border-box;
 }
 
+html{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
 
 .lateral{
-	background-color: #C71585;
+	background-color: #DDA0DD;
 	bottom: 0;
 	left: 0;
 	padding: 1em;
@@ -53,10 +56,46 @@
 }
 
 .habilidad{
-	background-color: #4B0082;
+	background-color:  #800080;
 	color: #fff;
 	display: inline-block;
 	padding: .5em;
 	font-size: 12px;
 
+}
+
+.habilidad_proy{
+	background-color: #DDA0DD;
+	color: #fff;
+	display: inline-block;
+	padding: .5em;
+	font-size: 12px;
+
+}
+
+.proyectos{
+	margin-left:350px;
+	padding: 1em;
+	display: table;
+}
+
+.proyecto{
+	display: table-cell;
+	padding: 1em;
+	width: 50%;
+}
+
+.proyecto_imagen{
+	width: 100%;
+}
+.proyecto_titulo{
+	color: #FF1493;
+	font-size: 18px;
+}
+.proyecto_descripcion{
+	color: #4B0082
+}
+
+.proyectos_imagen{
+	width: 1000%;
 }
